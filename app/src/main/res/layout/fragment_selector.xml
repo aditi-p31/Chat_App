@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/bConnectWifi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connect Wifi"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/send_text"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:text="Chat"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"/>
+</LinearLayout>
